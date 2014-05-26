@@ -10,7 +10,7 @@ Sorting by positive vs. negative % alone gives undue advantage to items with few
 
 Fortunately, there _is_ a correct solution: **use the lower bound of Wilson score confidence interval for a Bernoulli parameter**.
 
-As eloquently described by [Evan Williams](http://www.evanmiller.org/how-not-to-sort-by-average-rating.html#changes):
+As eloquently described by [Evan Miller](http://www.evanmiller.org/how-not-to-sort-by-average-rating.html#changes):
 
 > We need to balance the proportion of positive ratings with the uncertainty of a small number of observations. Fortunately, the math for this was worked out in 1927 by Edwin B. Wilson. What we want to ask is: _Given the ratings I have, there is a 95% chance that the "real" fraction of positive ratings is at least what?_ Wilson gives the answer. Considering only positive and negative ratings (i.e. not a 5-star scale), the lower bound on the proportion of positive ratings is given by:
 
