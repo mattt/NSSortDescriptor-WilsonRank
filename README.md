@@ -2,9 +2,9 @@
 
 **The Correct Way To Rank Up/Down Voted Items**
 
-Let's say you have a collection of items, each of which can be rated an arbitrary number of times. Maybe it's products on an e-commerce store, or links submitted to a popular hacker community.
+Let's say you have a collection of items, each of which have been rated thumbs positively or negatively a certain number of times. Maybe it's products on an e-commerce store, or links submitted to a popular hacker community.
 
-How do we rank them?
+_How do we rank them?_
 
 Sorting by positive vs. negative % alone gives undue advantage to items with fewer ratings, whereas sorting by total number of positive ratings makes it difficult for new items to break into the top.
 
