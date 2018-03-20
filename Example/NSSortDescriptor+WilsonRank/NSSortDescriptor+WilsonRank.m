@@ -22,6 +22,8 @@
 
 #import "NSSortDescriptor+WilsonRank.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 static double const WilsonRankDefaultConfidenceLevel = 0.95;
 
 static inline double InverseNormalCDF(double q) {
@@ -105,3 +107,5 @@ static inline double WilsonConfidenceIntervalLowerBound(NSUInteger positive, NSU
 }
 
 @end
+
+NS_ASSUME_NONNULL_END
