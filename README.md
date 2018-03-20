@@ -14,7 +14,9 @@ As eloquently described by [Evan Miller](http://www.evanmiller.org/how-not-to-so
 
 > We need to balance the proportion of positive ratings with the uncertainty of a small number of observations. Fortunately, the math for this was worked out in 1927 by Edwin B. Wilson. What we want to ask is: _Given the ratings I have, there is a 95% chance that the "real" fraction of positive ratings is at least what?_ Wilson gives the answer. Considering only positive and negative ratings (i.e. not a 5-star scale), the lower bound on the proportion of positive ratings is given by:
 
-![equation](http://www.evanmiller.org/images/rating-equation.png)
+<figure style="text-align:center">
+    <img title="$$\left ( \hat{p} + \frac{z^{2}_{\alpha/2}}{2n} \pm z_{\alpha/2} \sqrt{[\hat{p}(1 - \hat{p}) + z^{2}_{\alpha / 2} / 4n] / n} \right ) / (1 + z^{2}_{\alpha / 2} / n).$$" src="http://latex.codecogs.com/svg.latex?\inline&space;\large&space;\left&space;(&space;\hat{p}&space;+&space;\frac{z^{2}_{\alpha/2}}{2n}&space;\pm&space;z_{\alpha/2}&space;\sqrt{[\hat{p}(1&space;-&space;\hat{p})&space;+&space;z^{2}_{\alpha&space;/&space;2}&space;/&space;4n]&space;/&space;n}&space;\right&space;)&space;/&space;(1&space;+&space;z^{2}_{\alpha&space;/&space;2}&space;/&space;n)."/>
+</figure>
 
 > Here p̂ is the observed fraction of positive ratings, zα/2 is the (1-α/2) quantile of the standard normal distribution, and n is the total number of ratings.
 
