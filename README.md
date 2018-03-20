@@ -43,19 +43,18 @@ for (id fruit in [fruits sortedArrayUsingDescriptors:@[sortDescriptor]]) {
 
 ### Results
 
-- apple (77↑ / 14↓)
-- cherry (28↑ / 6↓)
-- honeydew (65↑ / 26↓)
-- elderberry (81↑ / 42↓)
-- banana (90↑ / 78↓)
-- fig (70↑ / 93↓)
-- grape (48↑ / 89↓)
-- durian (2↑ / 43↓)
+* apple (77↑ / 14↓)
+* cherry (28↑ / 6↓)
+* honeydew (65↑ / 26↓)
+* elderberry (81↑ / 42↓)
+* banana (90↑ / 78↓)
+* fig (70↑ / 93↓)
+* grape (48↑ / 89↓)
+* durian (2↑ / 43↓)
 
 ### Contact
 
-[Mattt Thompson](http://github.com/mattt)
-[@mattt](https://twitter.com/mattt)
+[Mattt](https://twitter.com/mattt)
 
 ## License
 
