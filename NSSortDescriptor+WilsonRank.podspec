@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'The Correct Way To Rank Up/Down Voted Items.'
   s.homepage = 'https://github.com/mattt/NSSortDescriptor-WilsonRank'
   s.social_media_url = 'https://twitter.com/mattt'
-  s.authors  = { 'Mattt Thompson' => 'm@mattt.me' }
+  s.authors  = { 'Mattt' => 'mattt@me.com' }
   s.source   = { :git => 'https://github.com/mattt/NSSortDescriptor-WilsonRank.git', :tag => '0.0.1' }
   s.source_files = 'NSSortDescriptor+WilsonRank'
   s.requires_arc = true
